@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;1,200;1,400;1,500" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+<!-- HEADING OF THE FORM -->
+        <h1 class="heading-primary">Customer Survey Form</h1>
+        <!-- FORM -->
+        <form action="" class="mb-md">
+            <!-- NAME AND EMAIL INPUT BOX -->
+            <div class="top-box mb-md">
+                <!-- NAME BOX -->
+                <div class="info-box">
+    
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <!-- EMAIL BOX -->
+                <div class="info-box">
+    
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email">
+                </div>
+            </div>
+            <!-- SURVEY QUESTIONS BOX -->
+                <div class="survey-box mb-md">
+                    <div class="question-box">
+    
+                        <p class="survey-question mb-sm">Is this first time You are using our products & Service?</p>
+                        <div class="options">
+                            <input type="radio" id="prod-yes" value="Yes" name="products" checked>
+                            <label for="prod-yes">Yes</label>
+                            <input type="radio" id="prod-no" value="No" name="products">
+                            <label for="prod-no">No</label>
+                        </div>
+                    </div>
+                    <div class="question-box">
+    
+                        <p class="survey-question mb-sm">Would you suggestion to your friends and Colleague?</p>
+                        <div class="options">
+                            <input type="radio" id="suggest-yes" value="Yes" name="suggest" checked>
+                            <label for="suggest-yes">Yes</label>
+                            <input type="radio" id="suggest-no" value="No" name="suggest">
+                            <label for="suggest-no">No</label>
+                        </div>
+                    </div>
+                    <div class="question-box">
+    
+                        <p class="survey-question mb-sm">How satisfied are you with our company overall?</p>
+                        <div class="options">
+                            <input type="radio" id="satisfied" value="Satisfied" name="satisfaction" checked>
+                            <label for="satisfied">Satisfied</label>
+                            <input type="radio" id="undecided" value="Undecided" name="satisfaction">
+                            <label for="undecided">Undecided</label>
+                            <input type="radio" id="Unsatisfied" value="Unsatisfied" name="satisfaction">
+                            <label for="Unsatisfied">Unsatisfied</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- SUGGESTION BOX -->
+                <div class="suggestion-box mb-md">
+
+                    <div class="question-box">
+    
+                        <p class="survey-question mb-sm">Do you have any suggestion to improve our Service?</p>
+                        <textarea name="suggestion" id="suggestion"></textarea>
+                    </div>
+                </div>
+             <!--SUBMIT BUTTON  -->
+            <button type="submit">SUBMIT</button>
+        </form>
+        <!-- FOOTER TEXT -->
+        <p class="footer" style="text-align: center;"><span>&copy; 2018 Customer Survey Form. All Rights Reserved | Designed by</span> W3Layouts</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
